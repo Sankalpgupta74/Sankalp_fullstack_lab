@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>City List</title>
+  <style>
+    ul {
+      list-style: none; 
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    li {
+      margin: 10px 0;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      transition: transform 0.3s ease, background 0.3s ease;
+    }
+
+    li:nth-child(1) {
+      background: linear-gradient(45deg, #ff9a9e, #fad0c4);
+      color: #333;
+      font-weight: bold;
+    }
+
+    li:nth-child(2) {
+      background: #e0f7fa;
+      color: #006064;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+
+    li:nth-child(3) {
+      background: #f3e5f5;
+      color: #6a1b9a;
+      font-style: italic;
+      border-left: 6px solid #6a1b9a;
+    }
+
+    li:nth-child(4) {
+      background: #fff9c4;
+      color: #827717;
+      text-shadow: 1px 1px 2px #ccc;
+    }
+
+    li:nth-child(5) {
+      background: #c8e6c9;
+      color: #1b5e20;
+      font-size: 1.4rem;
+      transform: rotate(-1deg);
+    }
+
+    li:hover {
+      transform: scale(1.05);
+      cursor: pointer;
+      background: #d1c4e9;
+      color: #311b92;
+    }
+  </style>
+</head>
+<body>
+  <h2>Popular Cities</h2>
+  <ul>
+    <li>New York</li>
+    <li>Tokyo</li>
+    <li>Paris</li>
+    <li>London</li>
+    <li>Sydney</li>
+  </ul>
+</body>
+</html>
